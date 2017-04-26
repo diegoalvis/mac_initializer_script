@@ -3,7 +3,7 @@ These collection of scripts will load automatically a bunch of binaries, applica
 programs and some utilities for setting a development environment based on Ruby.<br>
 Try it by downloading this repository and after running the command.<br>
 ```bash
-sh $DIR_OF_THE_REPOSITORY/dots.sh
+sh $DIR_OF_THE_REPOSITORY/init.sh
 ```
 ## Requirements
 You must have an Apple ID and download XCode, application that includes most of the
@@ -45,10 +45,17 @@ be found in the script as the variable atom.
 * <b><i>security.sh</b></i> (Not yet implemented): Runs some configuration related
 to the firewalls for security
 
-* <b>rbenv.sh</b>: Install [rbenv](https://github.com/rbenv/rbenv), [nodenv](https://github.com/nodenv/nodenv) and [phantomenv](https://github.com/boxen/phantomenv) for managing the versions of Ruby,
-Node and PhantomJS.
+* <b>rbenv.sh</b>: Install [rbenv](https://github.com/rbenv/rbenv) for managing the versions of Ruby.
+
+* <b>nodenv.sh</b>: Install [nodenv](https://github.com/nodenv/nodenv) for managing the versions of Node.
+
+* <b>jenv.sh</b>: Install [jenv](https://github.com/gcuisinier/jenv) for managing the versions of Java.
+
+* <b>phantomenv.sh</b>: Install [phantomenv](https://github.com/boxen/phantomenv) for managing the versions of PhantomJS.
 
 * <b>dotfiles_configuration.sh</b>: This file is run with the zsh shell rather than the bash console. It copies the templates in the templates directory to a directory in the `$HOME` directory called dotfiles. In this directory, is created a git repository and the templates are symlinked to the actual configuration files. In this way, any change done to the files in the `~/dotfiles` directory will be reflected directly in the configuration files and will be also under control version.
 
 ## Contributors
+[Diego Alejandro Alvis Palencia](https://github.com/diegoalvis)
+
 [Sebastián Felipe Landínez García](https://github.com/sflang1)
