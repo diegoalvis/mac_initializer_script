@@ -44,8 +44,8 @@ apps=(
   # flash                # Adobe Flash https://github.com/caskroom/homebrew-cask/blob/master/Casks/flash.rb
   iterm2               # iTerm2 terminal replacement app
   # shiori               # Pinboard and Delicious OS X client http://aki-null.net/shiori/
-  # sublime-text         # Sublime Text 2
-  sublime-text3        # Sublime Text 3
+  # sublime-text         # Sublime Text
+  sublime-text2        # Sublime Text 2
   virtualbox           # Virtualbox
   vagrant              # Vagrant https://www.vagrantup.com/
   vagrant-manager      # Vagrant manager https://github.com/lanayotech/vagrant-manager
