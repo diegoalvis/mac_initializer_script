@@ -21,13 +21,14 @@ it has only a .zshrc template.
 The main script, dots.sh, executes one by one the scripts in the scripts folder, in the following
 order:
 * <b><i>defaults.sh</b></i> (Not yet implemented): This script changes some Mac defaults at a low
-level in order to improve performance, visibility and usability. Refer to the script for wider
-information.
+level in order to improve performance, visibility and usability. Refer to the script for wider information.
+
 * <b>binaries.sh</b>: This script installs some tools like:
   * [brew](http://brew.sh/)
   * [imagemagick](http://www.imagemagick.org/script/index.php)
   * [fasd](https://github.com/clvv/fasd)
   * among others. The full list is contained in the script, in the binaries variable.
+
 
 * <b>install_zsh.sh</b>: This script installs [zsh](http://www.zsh.org/), a UNIX shell, and
 [zplug](https://github.com/zplug/zplug), a zsh plugin manager. It also changes the default terminal
@@ -52,6 +53,8 @@ to the firewalls for security
 * <b>jenv.sh</b>: Install [jenv](https://github.com/gcuisinier/jenv) for managing the versions of Java.
 
 * <b>phantomenv.sh</b>: Install [phantomenv](https://github.com/boxen/phantomenv) for managing the versions of PhantomJS.
+
+* <b>hosts.sh</b>: Set a hosts file for blocking malware, adware, and other irritants. This script take a hosts file copy from templates dir and put it into /etc/hosts path. For more info about this visit [StevenBlack hosts repository](https://github.com/StevenBlack/hosts).
 
 * <b>dotfiles_configuration.sh</b>: This file is run with the zsh shell rather than the bash console. It copies the templates in the templates directory to a directory in the `$HOME` directory called dotfiles. In this directory, is created a git repository and the templates are symlinked to the actual configuration files. In this way, any change done to the files in the `~/dotfiles` directory will be reflected directly in the configuration files and will be also under control version.
 
