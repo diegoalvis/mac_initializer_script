@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 main(){
-  cp $script_exec_dir/../templates/hosts /etc/hosts
+  sudo cp $script_exec_dir/../templates/hosts /etc/hosts
 }
 script_exec_dir=$(dirname $0)
 main "$@"
