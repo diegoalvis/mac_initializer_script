@@ -10,10 +10,10 @@ set -eu
 apps=(
   # shimo                # VPN client http://www.feingeist.io/shimo/
   # 1password            # password manager https://agilebits.com/onepassword
-  alfred               # Alfred
-  dropbox              # Dropbox
-  google-chrome        # Google Chrome browser
-  google-chrome-canary # Google Chrome Canary
+  # alfred               # Alfred
+  # dropbox              # Dropbox
+  # google-chrome        # Google Chrome browser
+  # google-chrome-canary # Google Chrome Canary
 
   #### Quicklook Enhancements Begin
 
@@ -31,7 +31,7 @@ apps=(
 
   # gmail
   # screenflick          # Video/desktop recording software http://www.araelium.com/screenflick
-  slack                # Slack(#)
+  # slack                # Slack(#)
   # transmit             # SFTP client and more https://panic.com/transmit/
   # appcleaner           # Cleans files and apps http://www.macupdate.com/app/mac/25276/appcleaner
   firefox              # Firefox browser
@@ -39,18 +39,18 @@ apps=(
   # seil                 # Change CAPS-LOCK key (e.g. to ESC), https://github.com/tekezo/Seil
   # karabiner            # Keyboard mappings customizer https://github.com/tekezo/Karabiner
   # spotify
-  vagrant              # Vagrant
+  # vagrant              # Vagrant
   # arq                  # Backup tool https://www.arqbackup.com/
   # flash                # Adobe Flash https://github.com/caskroom/homebrew-cask/blob/master/Casks/flash.rb
-  iterm2               # iTerm2 terminal replacement app
+  # iterm2               # iTerm2 terminal replacement app
   # shiori               # Pinboard and Delicious OS X client http://aki-null.net/shiori/
   # sublime-text         # Sublime Text
-  sublime-text2        # Sublime Text 2
+  # sublime-text2        # Sublime Text 2
   virtualbox           # Virtualbox
-  vagrant              # Vagrant https://www.vagrantup.com/
-  vagrant-manager      # Vagrant manager https://github.com/lanayotech/vagrant-manager
-  ngrok                # https://ngrok.com/ and https://ngrok.com/product # Another option: http://www.ultrahook.com/ | Version 2.0 is only available as a cask -> https://github.com/Homebrew/homebrew/issues/39573
-  atom                 # Atom text/code editor
+  # vagrant              # Vagrant https://www.vagrantup.com/
+  # vagrant-manager      # Vagrant manager https://github.com/lanayotech/vagrant-manager
+  # ngrok                # https://ngrok.com/ and https://ngrok.com/product # Another option: http://www.ultrahook.com/ | Version 2.0 is only available as a cask -> https://github.com/Homebrew/homebrew/issues/39573
+  # atom                 # Atom text/code editor
   flux                 # Human friendly screen luminosity https://justgetflux.com/
   # mailbox
   # sketch              # Digital design app, http://www.sketchapp.com/
@@ -86,12 +86,12 @@ atom=(
   # advanced-railscasts-syntax  # Didn't find any info
   # atom-beautify               # Automatically indents files.
   # cmd-9                       # Make that the key combination cmd+9 takes you to the last tab, not the ninth.
-  css-comb                      # Auto adjusts CSS files. Shortcut: Ctrl Alt C
+  # css-comb                      # Auto adjusts CSS files. Shortcut: Ctrl Alt C
   # easy-motion                 # Quickly navigate among words in the same line
   # editor-stats                # Display statistics about keyboard and mouse usage
   # fancy-new-file              # Allows to create a file inside a folder directly. Unavailable for atom 1.10
-  git-diff                    # Shows in Atom which lines have been added, edited or modified. Already included in the bundle
-  git-history                   # Shows the different versions of a file
+  # git-diff                    # Shows in Atom which lines have been added, edited or modified. Already included in the bundle
+  # git-history                   # Shows the different versions of a file
   # image-view                  # Displays images in the editor. Bundled with atom.
   # inc-dec-value               # Increases, decreases a number, capitalizes, lowercases strings with the alt+up, alt+down shortcut
   # key-peek                    # Keybinding resolving

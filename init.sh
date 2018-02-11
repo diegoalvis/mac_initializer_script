@@ -4,7 +4,7 @@
 set -eu   # Make that the errors in every script stop the execution of the general script.
 
 # Set hosts configurations
-sh scripts/hosts.sh
+# sh scripts/hosts.sh
 
 # First of all, install brew and some other required installers (core-utils also for the realpath, etc.)
 sh scripts/binaries.sh
@@ -34,9 +34,9 @@ if [[ ! $(which git) ]]; then
 else
   # old rbenv installer version
   # sh scripts/rbenv.sh
-  sh scripts/jenv.sh
+  # sh scripts/jenv.sh
   sh scripts/nodenv.sh
-  sh scripts/phantomenv.sh
+  # sh scripts/phantomenv.sh
   sh scripts/rbenv.sh
   # sh scripts/pgvm.sh
 fi
