@@ -60,5 +60,3 @@ to the firewalls for security
 
 ## Contributors
 [Diego Alejandro Alvis Palencia](https://github.com/diegoalvis)
-
-[Sebastián Felipe Landínez García](https://github.com/sflang1)
